@@ -1,14 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Annu\\OneDrive\\Desktop\\BSCIT\\InstaFashion-Annapurna,Karina\\InstaFashionShopping\\InstaFashionShopping\\",
+  "WorkspaceRootPath": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|c:\\users\\annu\\onedrive\\desktop\\bscit\\instafashion-annapurna,karina\\instafashionshopping\\instafashionshopping\\instafashionshopping\\userprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|solutionrelative:instafashionshopping\\userprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|c:\\users\\annu\\onedrive\\desktop\\projects\\instafashionshoppingwebsite\\instafashionshopping\\instafashionshopping\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|solutionrelative:instafashionshopping\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|C:\\Users\\Annu\\OneDrive\\Desktop\\BSCIT\\InstaFashion-Annapurna,Karina\\InstaFashionShopping\\InstaFashionShopping\\instafashionshopping\\userprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|solutionrelative:instafashionshopping\\userprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\instafashionshopping\\adminhome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|solutionrelative:instafashionshopping\\adminhome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|c:\\users\\annu\\onedrive\\desktop\\projects\\instafashionshoppingwebsite\\instafashionshopping\\instafashionshopping\\manageusers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|solutionrelative:instafashionshopping\\manageusers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\instafashionshopping\\manageusers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|solutionrelative:instafashionshopping\\manageusers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\instafashionshopping\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|solutionrelative:instafashionshopping\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\instafashionshopping\\stylesheets\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|solutionrelative:instafashionshopping\\stylesheets\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\instafashionshopping\\wishlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|solutionrelative:instafashionshopping\\wishlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\instafashionshopping\\orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|solutionrelative:instafashionshopping\\orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\instafashionshopping\\orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D4DF88-8E98-41CE-B601-53DF0FCC20FF}|InstaFashionShopping\\InstaFashionShopping.csproj|solutionrelative:instafashionshopping\\orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +51,114 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserProfile.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Annu\\OneDrive\\Desktop\\BSCIT\\InstaFashion-Annapurna,Karina\\InstaFashionShopping\\InstaFashionShopping\\InstaFashionShopping\\UserProfile.aspx.cs",
-              "RelativeDocumentMoniker": "InstaFashionShopping\\UserProfile.aspx.cs",
-              "ToolTip": "C:\\Users\\Annu\\OneDrive\\Desktop\\BSCIT\\InstaFashion-Annapurna,Karina\\InstaFashionShopping\\InstaFashionShopping\\InstaFashionShopping\\UserProfile.aspx.cs",
-              "RelativeToolTip": "InstaFashionShopping\\UserProfile.aspx.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAmwDMAAAAJAAAA",
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\Default.aspx",
+              "RelativeDocumentMoniker": "InstaFashionShopping\\Default.aspx",
+              "ToolTip": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\Default.aspx",
+              "RelativeToolTip": "InstaFashionShopping\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-13T18:21:27.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\Admin.Master",
+              "RelativeDocumentMoniker": "InstaFashionShopping\\Admin.Master",
+              "ToolTip": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\Admin.Master",
+              "RelativeToolTip": "InstaFashionShopping\\Admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-13T17:52:40.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageUsers.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\ManageUsers.aspx.cs",
+              "RelativeDocumentMoniker": "InstaFashionShopping\\ManageUsers.aspx.cs",
+              "ToolTip": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\ManageUsers.aspx.cs",
+              "RelativeToolTip": "InstaFashionShopping\\ManageUsers.aspx.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAD4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T17:40:59.752Z",
+              "WhenOpened": "2024-11-13T17:45:47.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageUsers.aspx",
+              "DocumentMoniker": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\ManageUsers.aspx",
+              "RelativeDocumentMoniker": "InstaFashionShopping\\ManageUsers.aspx",
+              "ToolTip": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\ManageUsers.aspx",
+              "RelativeToolTip": "InstaFashionShopping\\ManageUsers.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-13T17:45:28.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserProfile.aspx",
-              "DocumentMoniker": "C:\\Users\\Annu\\OneDrive\\Desktop\\BSCIT\\InstaFashion-Annapurna,Karina\\InstaFashionShopping\\InstaFashionShopping\\InstaFashionShopping\\UserProfile.aspx",
-              "RelativeDocumentMoniker": "InstaFashionShopping\\UserProfile.aspx",
-              "ToolTip": "C:\\Users\\Annu\\OneDrive\\Desktop\\BSCIT\\InstaFashion-Annapurna,Karina\\InstaFashionShopping\\InstaFashionShopping\\InstaFashionShopping\\UserProfile.aspx",
-              "RelativeToolTip": "InstaFashionShopping\\UserProfile.aspx",
+              "Title": "AdminHome.aspx",
+              "DocumentMoniker": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\AdminHome.aspx",
+              "RelativeDocumentMoniker": "InstaFashionShopping\\AdminHome.aspx",
+              "ToolTip": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\AdminHome.aspx",
+              "RelativeToolTip": "InstaFashionShopping\\AdminHome.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
-              "WhenOpened": "2024-07-30T17:40:59.83Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-13T17:37:50.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Admin.css",
+              "DocumentMoniker": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\StyleSheets\\Admin.css",
+              "RelativeDocumentMoniker": "InstaFashionShopping\\StyleSheets\\Admin.css",
+              "ToolTip": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\StyleSheets\\Admin.css",
+              "RelativeToolTip": "InstaFashionShopping\\StyleSheets\\Admin.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-13T17:37:47.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Wishlist.aspx",
+              "DocumentMoniker": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\Wishlist.aspx",
+              "RelativeDocumentMoniker": "InstaFashionShopping\\Wishlist.aspx",
+              "ToolTip": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\Wishlist.aspx",
+              "RelativeToolTip": "InstaFashionShopping\\Wishlist.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-13T17:37:04.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Orders.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\Orders.aspx.cs",
+              "RelativeDocumentMoniker": "InstaFashionShopping\\Orders.aspx.cs",
+              "ToolTip": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\Orders.aspx.cs",
+              "RelativeToolTip": "InstaFashionShopping\\Orders.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:15:00.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Orders.aspx",
+              "DocumentMoniker": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\Orders.aspx",
+              "RelativeDocumentMoniker": "InstaFashionShopping\\Orders.aspx",
+              "ToolTip": "C:\\Users\\Annu\\OneDrive\\Desktop\\Projects\\InstaFashionShoppingWebsite\\InstaFashionShopping\\InstaFashionShopping\\Orders.aspx",
+              "RelativeToolTip": "InstaFashionShopping\\Orders.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-13T17:06:45.562Z"
             }
           ]
         }

@@ -38,7 +38,7 @@ namespace InstaFashionShopping
         protected void btnSignIn_click(object sender, EventArgs e)
         {
             using (
-           SqlConnection con = new SqlConnection("Data Source=ANNAPURNA\\SQLEXPRESS;Initial Catalog=Insta-FashionDB;Integrated Security=True"))
+           SqlConnection con = new SqlConnection(@"Data Source=ANNAPURNA\SQLAnna;Initial Catalog=Insta-FashionDB;Integrated Security=True"))
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand("Select * from users where Username=@username and Password=@password", con);

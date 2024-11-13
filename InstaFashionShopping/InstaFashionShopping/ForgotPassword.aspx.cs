@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using System.Net;
+using System.Net.Mail;
+using System.Web.UI;
 using System.Configuration;
 using System.Data;
-using System.Net.Mail;
-using System.Net;
-using System.Drawing;
 
 namespace InstaFashionShopping
 {
@@ -20,72 +15,83 @@ namespace InstaFashionShopping
             msg.Text = "";
             msg1.Text = "";
         }
-        public void sendpassword(String password, String email)
+
+        public void sendpassword(string password, string email)
         {
-            SmtpClient smtp = new SmtpClient();
-            smtp.Host = "smtp.gmail.com";
-            smtp.Port = 587;
-            smtp.Credentials = new System.Net.NetworkCredential("annapurnag2262@gmail.com", "gfczyeolckbodqis");
-            smtp.EnableSsl = true;
-            MailMessage msg = new MailMessage();
-            msg.Subject = "Forgotted Password";
-            msg.Body = "Dear " + username.Text + ", Your Password is  " + password + "\n\n\nThanks & Regards\n Insta-Fashion";
-            string toaddress = emailtxt.Text;
-            msg.To.Add(toaddress);
-            string fromaddress = "Insta Fashion <annapurnag2262@gmail.com>";
-            msg.From = new MailAddress(fromaddress);
             try
             {
+                // Setup the SMTP client with Gmail's SMTP server details
+                SmtpClient smtp = new SmtpClient
+                {
+                    Host = "smtp.gmail.com",  // Gmail's SMTP host
+                    Port = 587,               // Gmail's SMTP port
+                    Credentials = new NetworkCredential("annapurnag2262@gmail.com", "tybl ivhy zaqv nbis"),  // App password here
+                    EnableSsl = true          // Enable SSL for secure connection
+                };
+
+                // Create the email message
+                MailMessage msg = new MailMessage
+                {
+                    Subject = "Forgotten Password",
+                    Body = $"Dear {username.Text},\n\nYour Password is {password}\n\nThanks & Regards\n Insta-Fashion",
+                    From = new MailAddress("Insta Fashion <annapurnag2262@gmail.com>")  // Sender's email address
+                };
+                msg.To.Add(email);  // Add the recipient's email
+
+                // Send the email
                 smtp.Send(msg);
-
-
             }
-            catch
+            catch (Exception ex)
             {
-                throw;
+                // Log exception (could be stored in a file or database for production)
+                throw new Exception("Error sending email. Please try again later.", ex);
             }
         }
 
-
+        // Function to clear the textboxes and message labels
         public void clear()
         {
             username.Text = "";
             emailtxt.Text = "";
+            msg.Text = "";
+            msg1.Text = "";
         }
+
         protected void Button1_Click(object sender, EventArgs e)
         {
-            String password;
+            string password;
+            string connectionString = @"Data Source=ANNAPURNA\SQLAnna;Initial Catalog=Insta-FashionDB;Integrated Security=True";
 
-            using (
-           SqlConnection con = new SqlConnection("Data Source=ANNAPURNA\\SQLEXPRESS;Initial Catalog=Insta-FashionDB;Integrated Security=True"))
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
-                String myquery = "select * from users where username='" + username.Text + "' and email='" + emailtxt.Text + "'";
-                SqlCommand cmd = new SqlCommand();
-                cmd.CommandText = myquery;
-                cmd.Connection = con;
+                // Using parameterized query to prevent SQL Injection
+                string myquery = "SELECT * FROM users WHERE username = @username AND email = @email";
+                SqlCommand cmd = new SqlCommand(myquery, con);
+                cmd.Parameters.AddWithValue("@username", username.Text);  // Adding username parameter
+                cmd.Parameters.AddWithValue("@email", emailtxt.Text);  // Adding email parameter
+
+                // Open the connection and fetch data
                 con.Open();
-                SqlDataAdapter da = new SqlDataAdapter();
-                da.SelectCommand = cmd;
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataSet ds = new DataSet();
                 da.Fill(ds);
+
                 if (ds.Tables[0].Rows.Count > 0)
                 {
+                    // Decrypt password and send it to the email
+                    password = Cryptography.Decrypt(Convert.ToString(ds.Tables[0].Rows[0]["password"]));
+                    sendpassword(password, emailtxt.Text);  // Send email with the password
 
-                    password = Cryptography.Decrypt( Convert.ToString(ds.Tables[0].Rows[0]["password"]));
-                    sendpassword(password, emailtxt.Text);
-
-                    msg.Text ="Your Password Has Been Sent to Registered Email Address. Check Your Mail Inbox";
-                    clear();
-                   
+                    // Display success message
+                    msg.Text = "Your Password Has Been Sent to Registered Email Address. Check Your Mail Inbox";
+                    clear();  // Clear the fields after success
                 }
                 else
                 {
+                    // Display error message if username or email is not found
                     msg1.Text = "Your Username is Not Valid or Email Not Registered";
-
                 }
-
                 con.Close();
-
             }
         }
     }

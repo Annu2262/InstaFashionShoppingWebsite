@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
@@ -14,29 +9,48 @@ namespace InstaFashionShopping
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-       
-            string sqlQuery = "SELECT full_name FROM users WHERE usertype = 'admin'";
-            
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Insta-FashionDB"].ConnectionString))
+            try
             {
-                using (SqlCommand command = new SqlCommand(sqlQuery, con))
-                {
-                    con.Open();
-                    
-                    string adminName = (string)command.ExecuteScalar();
+                string sqlQuery = "SELECT full_name FROM users WHERE usertype = 'admin'";
 
-                    Label1.Text = "Welcome! " + adminName;
+                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Insta-FashionDB"].ConnectionString))
+                {
+                    using (SqlCommand command = new SqlCommand(sqlQuery, con))
+                    {
+                        con.Open();
+
+                        string adminName = (string)command.ExecuteScalar();
+
+                        if (!string.IsNullOrEmpty(adminName))
+                        {
+                            Label1.Text = "Welcome! " + adminName;
+                        }
+                        else
+                        {
+                            Label1.Text = "Welcome! Admin";
+                        }
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                Label1.Text = "Error loading admin details.";
             }
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void btnLogout_Click(object sender, EventArgs e)
         {
-            Session.Clear();
-            Session.Abandon();
+            try
+            {
+                Session.Clear();
+                Session.Abandon();
 
-            // Redirect to the login page
-            Response.Redirect("Default.aspx");
+                Response.Redirect("Default.aspx");
+            }
+            catch (Exception ex)
+            {
+                Label1.Text = "An error occurred while logging out.";
+            }
         }
     }
 }

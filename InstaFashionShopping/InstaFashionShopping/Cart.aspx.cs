@@ -100,7 +100,7 @@ namespace InstaFashionShopping
                             Int32 updateQty = Convert.ToInt32(dt.Rows[0]["Qty"].ToString());
                             if (updateQty < 5) // limit to 5
                             {
-                                SqlCommand myCmd = new SqlCommand("SP_UpdateCart", con)
+                                SqlCommand myCmd = new SqlCommand("SP_UpdateCart1", con)
                                 {
                                     CommandType = CommandType.StoredProcedure
                                 };
@@ -150,7 +150,7 @@ namespace InstaFashionShopping
                             }
                             else
                             {
-                                SqlCommand myCmd = new SqlCommand("SP_UpdateCart", con)
+                                SqlCommand myCmd = new SqlCommand("SP_UpdateCart1", con)
                                 {
                                     CommandType = CommandType.StoredProcedure
                                 };

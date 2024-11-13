@@ -7,9 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace InstaFashionShopping {
-    
-    
-    public partial class Orders {
+namespace InstaFashionShopping
+{
+
+
+    public partial class Orders
+    {
     }
 }

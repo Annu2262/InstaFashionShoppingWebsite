@@ -18,7 +18,7 @@ namespace InstaFashionShopping
         private SqlConnection con;
         private SqlCommand cmd;
         private SqlDataAdapter da;
-        private readonly string connString = "Data Source=ANNAPURNA\\SQLEXPRESS;Initial Catalog=Insta-FashionDB;Integrated Security=True";
+        private readonly string connString = @"Data Source=ANNAPURNA\SQLAnna;Initial Catalog=Insta-FashionDB;Integrated Security=True";
         private Boolean emailavailable = false;
         private Boolean usernameavailable = false;
         #endregion

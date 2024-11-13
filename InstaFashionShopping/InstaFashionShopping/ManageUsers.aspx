@@ -27,16 +27,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <section>
-        <div class="row">
-            <div class="column1" style="background-color: #aaa;">
-            </div>
-            <div class="column2" style="background-color: #bbb;">
-                <h2>Column 2</h2>
-                <p>Some text..</p>
-            </div>
-        </div>
-    </section>
+   
     <div class="container">
 
         <hr />
@@ -71,6 +62,6 @@
 
             </div>
         </div>
-        <div class="panel-footer">Panel Footer</div>
+        <div class="panel-footer"></div>
     </div>
 </asp:Content>

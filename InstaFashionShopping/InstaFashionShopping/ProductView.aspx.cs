@@ -66,7 +66,7 @@ namespace InstaFashionShopping
                         if (dt.Rows.Count > 0)
                         {
                             Int32 updateQty = Convert.ToInt32(dt.Rows[0]["Qty"].ToString());
-                            SqlCommand myCmd = new SqlCommand("SP_UpdateCart", con)
+                            SqlCommand myCmd = new SqlCommand("SP_UpdateCart1", con)
                             {
                                 CommandType = CommandType.StoredProcedure
                             };
